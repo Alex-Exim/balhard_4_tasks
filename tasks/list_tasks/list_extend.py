@@ -18,8 +18,8 @@ new_workers = [
 
 
 def list_extend(first_list: list, second_list: list) -> list:
+    first_list = user_list.extend(new_workers)
     return first_list
-
 
 if __name__ == '__main__':
     print(f"В компании работает {len(user_list)} человек.")

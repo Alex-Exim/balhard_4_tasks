@@ -20,9 +20,11 @@ user_template = [
     user_data
 ]
 
+from copy import deepcopy
 
 def deepcopy_list(collection: list) -> list:
     # TODO вставить код сюда
+    collection = deepcopy(user_template)
     collection_copy = collection
     return collection_copy
 
