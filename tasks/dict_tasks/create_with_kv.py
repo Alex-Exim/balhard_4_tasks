@@ -26,7 +26,8 @@ users = {}
 
 def save_user(users_list: dict, user_data: dict) -> dict:
     # TODO вставить код сюда
-    return users_list
+    users_list.update(user_data)
+    return user_list
 
 
 if __name__ == '__main__':
