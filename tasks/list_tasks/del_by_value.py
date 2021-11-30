@@ -7,9 +7,9 @@
 shopping_list = ["молоко", "сметана", "сыр"]
 
 
-def del_by_value(collection: list, value: str) -> list:
+def del_by_value(collection: list, value: str) -> None:
     # TODO вставить код сюда
-    collection = shopping_list.remove("сметана")
+    collection.remove(value)
     return collection
 
 

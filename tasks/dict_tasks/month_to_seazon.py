@@ -27,6 +27,7 @@ months = {
     12: "Зима"
 }
 
+
 def month_to_season(month: int) -> str:
     """Возвращает сезон по его номеру
 

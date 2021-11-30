@@ -30,8 +30,9 @@ planets = {
     8: "Нептун"
 }
 
+
 def get_planet_name(planet_num: int) -> str:
-    result = planets.get(planet_num, "КаПэкс")
+    result = planets.get(planet_num)
     return result
 
 
