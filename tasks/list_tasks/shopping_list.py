@@ -22,7 +22,7 @@ def add_to_list(s_list: list, element: str) -> list:
     :return: список покупок
     """
     # TODO вставить код сюда
-    return s_list
+    return s_list.append(element)
 
 
 if __name__ == '__main__':
@@ -32,4 +32,4 @@ if __name__ == '__main__':
         if new_element == 'exit':
             break
         add_to_list(shopping_list, new_element)
-    print("\nНужно купить: \n" + ",\n".join(shopping_list))
+    print("\n" "Нужно купить: \n" + ",\n".join(shopping_list))
